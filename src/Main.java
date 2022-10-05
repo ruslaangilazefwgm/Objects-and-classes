@@ -8,7 +8,5 @@ public class Main {
         stihi.setYear(1831);
         System.out.println(history.getName() + " " +history.getAuthor() + " " +history.getYear());
 
-
-
     }
 }
