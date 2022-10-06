@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -6,7 +8,7 @@ public class Main {
         Book history = new Book("History", kluchevskiy, 1896 );
         Book stihi = new Book("Stihi", Pushkin, 1830);
         stihi.setYear(1831);
-        System.out.println(history.getName() + " " +history.getAuthor() + " " +history.getYear());
-
+        System.out.println(history);
+        System.out.println(history.equals(stihi));
     }
 }
